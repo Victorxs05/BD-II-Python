@@ -1,4 +1,4 @@
-from services.usuario_services import UsuarioService
+from projeto.models.usuario import UsuarioService
 from repositories.usuario_repository import UsuarioRepository
 from config.connection import Session 
 

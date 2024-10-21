@@ -22,5 +22,5 @@ class UsuarioService:
         except Exception as erro: 
             print(f"Ocorreu um erro inesperado: {erro}")
 
-    def listar_todos_usuario(self):    
-        return self.repository.listar_todos_usuario()
+    def listar_todos_usuarios(self):    
+        return self.repository.listar_todos_usuarios()

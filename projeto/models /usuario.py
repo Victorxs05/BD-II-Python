@@ -1,6 +1,6 @@
 from sqlalchemy import Column, String, Integer
 from sqlalchemy.orm import declarative_base
-from projeto.config.connection import db
+from config.connection import db
 
 Base = declarative_base()
 
